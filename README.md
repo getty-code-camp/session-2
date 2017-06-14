@@ -20,4 +20,4 @@ Clone this repository so you can follow along locally.
 - [Basic Elements](exercises/html-basics.html) 
 - [Links and Images](exercises/links-and-images.html)
 - [Semantic HTML](exercises/semantic-html.html)
-- Create a recipe!
+- [Create a Recipe!](exercises/recipe.html)

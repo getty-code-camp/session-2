@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Semantic Elements</title>
+  </head>
+  <body>
+    <h1>Semantic Elements</h1>
+    <h2>&lt;div&gt; tags</h2>
+    <p>
+      For most of its history, HTML had one element that could act as a generic
+      container, the &lt;div&gt; tag. The &lt;div&gt; tag stands for "division",
+      and it has very few special styles or attributes of its own. Instead,
+      by applying style rules, divs could be used to build up virtually any
+      sort of layout imaginable. We'll talk more about page layout in the next
+      class session.
+    </p>
+    <p>
+      Unfortunately, a &lt;div&gt; tag by itself doesn't contain much
+      information about its <em>meaning</em> in the document. Is this
+      crucial content, or just decoration?
+    </p>
+    <p>
+      When the only things distinguishing different kinds of div tags are visual
+      rules defined in CSS, users who are visually impaired, who browse with CSS
+      disabled, or who access the page through some program besides a standard
+      web browser (news reader, assistive software, etc) will have a hard time
+      understanding what is going on.
+    </p>
+    <p>
+      The latest version of HTML, <strong>HTML5</strong>, introduced new tags
+      to help solve this problem.
+    </p>
+    <p>
+      This is not to say that &lt;div&gt; tags are bad, only that there may be
+      situations where a more meaningful element is a better alternative.
+    </p>
+    <dl>
+      <dt>&lt;header&gt;</dt>
+      <dd>Header Elements: these denote a header element (banners, etc)</dd>
+
+      <dt>&lt;footer&gt;</dt>
+      <dd>
+        Footer elements indicate content that is not crucially important
+        (copyright info, contact links, etc)
+      </dd>
+
+      <dt>&lt;nav&gt;</dt>
+      <dd>Nav Elements: these denote navigational tools for the site.</dd>
+
+      <dt>&lt;article&gt;</dt>
+      <dd>
+        Article Elements: these denote the main text content of a page.
+        Some browsers like Safari will grab any article tags to display in a special
+        "reading" mode if the user selects that option.
+        Articles can be broken up further into &lt;section&gt; tags.
+      </dd>
+
+      <dt>&lt;aside&gt;</dt>
+      <dd>
+        Aside elements indicate things like sidebars, call-outs, or certain
+        kinds of navigation that are subordinate to the main content of a page.
+      </dd>
+    </dl>
+
+  </body>
+</html>

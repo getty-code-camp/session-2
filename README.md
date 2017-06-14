@@ -17,7 +17,7 @@ Camp. This week's lession will focus on the basics of HTML.
 ### Exercises for tonight
 Clone this repository so you can follow along locally.
 
-- Basic elements: Go to the `exercises` folder and open: `html-basics.html` in a
-  web browser and a text editor; place the two windows side by side to compare.
-- Links and Images
+- [Basic Elements](exercises/html-basics.html) 
+- [Links and Images](exercises/links-and-images.html)
+- [Semantic HTML](exercises/semantic-html.html)
 - Create a recipe!

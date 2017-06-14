@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Links and Images</title>
+  </head>
+  <body>
+    <h1>Links and Images</h1>
+    <p>
+      The Web would not be the web without <strong>link</strong> and
+      <strong>image</strong> elements.These elements, which allow you to
+      reference resources outside of the document you are currently working on,
+      represent the <em>hyper</em> of "hypertext".
+    </p>
+
+    <h2>Links</h2>
+    <p>
+      Link elements are defined by the &lt;a&gt; tag, which stands for
+      <em>anchor</em>. Here's an example of a basic link tag.
+      <pre>
+        <code>
+          &lt;a href='https://developer.mozilla.org/en-US/docs/Web/HTML'&gt;
+            Mozilla Developer Network
+          &lt;/a&gt;
+        </code>
+      </pre>
+    </p>
+    <p>
+      This is an <em>absolute</em> link; it always goes to the same location.
+      HTML also allows you to define a <em>relative</em> link based on the current
+      document. This example goes to the <a href="./html-basics.html">HTML
+      Basics</a> file that we saw earlier.
+
+      <pre>
+        <code>
+          &lt;a href='./html-basics.html'&gt;
+            HTML Basics
+          &lt;/a&gt;
+        </code>
+      </pre>
+    </p>
+    <p>
+      In both cases, the <code>href</code> attribute controls the link's
+      destination.
+    </p>
+
+    <h2>Images</h2>
+    <p>
+      Images work kind of like links, but instead of an <code>href</code>
+      attribute, they have an <code>src</code> attribute for "source".
+      It's also good to define an <code>alt</code> tag for accessibility
+      purposes.
+    </p>
+    <p>
+      <img alt="What a cute doggo" src="http://i.imgur.com/mUIQRVy.jpg"/>
+
+      <pre>
+        <code>
+          &lt;img alt='what a cute doggo' src='http://i.imgur.com/mUIQRVy.jpg'&gt; /&gt;
+        </code>
+      </pre>
+
+    </p>
+
+    <p>Animated GIFs work too! You treat them exactly the same.</p>
+
+    <p>
+      <img alt="Check out this gif!" src="https://media.giphy.com/media/qdwvYNmqw1vEs/giphy.gif"/>
+    </p>
+  </body>
+
+</html>
